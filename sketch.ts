@@ -6,7 +6,7 @@
 function preload() {
   // Tyvärr har jag inte fått till den globala typningen för
   // inladdningen av ljud men fungerar bra enligt nedan..
-  hopTopImage = loadImage("../assets/images/hop_top.png");
+  hopTopImage = loadImage("./assets/images/hop_top.png");
   //Sounds
   jumpSound = (window as any).loadSound("./assets/sounds/bubbles.wav");
   gameOverSound = (window as any).loadSound("./assets/sounds/game-over.wav");
